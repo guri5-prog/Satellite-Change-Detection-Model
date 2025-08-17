@@ -1,0 +1,11 @@
+dataset_path: data/standardized        # root path to datasets
+image_size: 256
+batch_size: 8
+lr: 0.001
+epochs: 50
+save_every: 5
+resume: true
+checkpoint_path: checkpoints/latest.pth
+best_model_path: checkpoints/best_model.pth
+backbone: resnet34                    # or whatever you support
+augmentations: true
