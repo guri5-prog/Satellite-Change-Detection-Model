@@ -9,39 +9,7 @@ It supports multiple datasets (DFC2020, LEVIR-CD, LEVIR-CD+, DSIFN, OSCD, Kaggle
 ## 📂 Repository Structure  
 
 ```
-
-├── data/                          # All datasets stored here
-│   ├── DFC2020
-│   ├── DSIFN Train Test
-│   ├── kaggle\_change
-│   ├── LEVIR CD
-│   ├── LEVIR-CD+
-│   ├── oscd
-│   └── standardized/              # Created after running scripts
-│       ├── train/{dataset}/A,B,mask
-│       ├── val/{dataset}/A,B,mask
-│       └── test/{dataset}/A,B,mask
-│
-├── configs/
-│   └── config.yaml                # Training configuration
-│
-├── models/
-│   └── changenet.py               # ChangeNet model definition
-│
-├── dataset/
-│   └── change\_dataset.py          # Dataset loader
-│
-├── utils/
-│   ├── losses.py                  # BCE + Dice loss
-│   ├── metrics.py                 # IoU + F1 score
-│   └── checkpoint.py              # Save/load checkpoints
-│
-├── scripts/
-│   ├── standardize\_xxx.py         # One script per dataset
-│   └── split\_standardized.py      # Splits into train/val/test
-│
-├── train.py                       # Main training script
-└── README.md
+<img width="864" height="880" alt="image" src="https://github.com/user-attachments/assets/261472c9-8b55-44f0-a1e3-c08a34e38aad" />
 
 ````
 
